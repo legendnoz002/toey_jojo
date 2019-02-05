@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      rel="stylesheet"
+      href="assets/dist/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <title>Dashboard</title>
+  </head>
+
+  <body>
+    <div class="container-page">
+      <div class="row">
+        <div class="col menu">
+          <!-- Logo -->
+          <div class="logo">
+            <div class="logo-content">Logo</div>
+          </div>
+          <!-- End Logo -->
+
+          <!-- Side Menu -->
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">หน้าหลัก</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="customer.html">จัดการพนักงาน</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="employee.html">จัดการลูกค้า</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">จัดการการขาย</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">จัดการการซื้อ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">จัดการการซ่อม</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">จัดการการเดินทะเบียน</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">จัดการข้อมูลรถ</a>
+            </li>
+          </ul>
+          <!-- End Side Menu -->
+        </div>
+        <div class="col nav">
+          <div class="box">
+            <!-- Nav bar Menu -->
+            <div class="nav-bar">
+              <a class="btn btn-link" href="#" role="button">ออกจากระบบ</a>
+            </div>
+            <!-- End Nav bar Menu -->
+
+            <!-- Content -->
+            <div class="content-box">
+              <form>
+                <div class="input-group form-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text" id=""
+                      >เพิ่มประวัติการซื้อ</span>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="ข้อมูลลูกค้า"
+                  />
+                  <span class="input-group-btn">
+                    <button class="btn btn-info" type="button">ค้นหา</button>
+                  </span>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-sm-5 col-md-6 ">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="ผู้ขาย "
+                    />
+                  </div>
+                  <div class="col-sm-5 col-md-6 ">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="ยี่ห้อ"
+                    />
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="รุ่นของรถ"
+                  />
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-xs-6 col-sm-4">
+                    <input type="text" class="form-control" placeholder="สี" />
+                  </div>
+                  <div class="col-xs-6 col-sm-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="ทะเบียน"
+                    />
+                  </div>
+                  <div class="col-xs-6 col-sm-4">
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="เพิ่ม"
+                    />
+                  </div>
+                </div>
+
+                <table class="table table-bordered">
+                  <thead>
+                    <tr>
+                      <th scope="col">First</th>
+                      <th scope="col">Last</th>
+                      <th scope="col">Handle</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td>Mark</td>
+                      <td>
+                        <button class="btn btn-danger" onclick="">ลบ</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">2</th>
+                      <td>Jacob</td>
+                      <td>
+                        <button class="btn btn-danger" onclick="">ลบ</button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="row">3</th>
+                      <td>Larry the Bird</td>
+                      <td>
+                        <button class="btn btn-danger" onclick="">ลบ</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <p class="form-group">
+                  <button class="toey-button" onclick="">
+                    ยกเลิก
+                  </button>
+                  <button
+                    class="float-right toey-button"
+                    onclick=""
+                  >
+                    บันทึก
+                  </button>
+                </p>
+              </form>
+            </div>
+            <!-- End Content -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-menu"></div>
+
+    <script src="assets/dist/jquery/dist/jquery.min.js"></script>
+    <script src="assets/dist/popper.js/dist/umd/popper.min.js"></script>
+    <script src="assets/dist/bootstrap/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
